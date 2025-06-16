@@ -1,4 +1,4 @@
-## Welcome To Minimalist Homapage
+## Welcome To My Minimalist Homapage
 
 - This is a simple site built with html/css with a terminal-inspired style.
 
