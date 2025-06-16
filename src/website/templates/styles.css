@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 12px 8px;
+    
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  display: block;
+  margin: 12px 0;
+  font-size: 1rem;
+  color: white;
+}
+
+h3 {
+  color: white
+  ;
+}
+div {
+  color: white;
+}
+
+a {
+  color: lightcoral;
+}
+
