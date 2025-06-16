@@ -3,7 +3,7 @@ body {
   max-width: 750px;
   margin: 0 auto;
   padding: 12px 16px;
-  font-family: '3270 Nerd Font Mono', monospace;
+  font-family: 'Hack', monospace;
   font-size: 14px;
   line-height: 1.6;
   color: white;
@@ -68,11 +68,3 @@ footer {
   }
 }
 
-
-/* font rule */
-@font-face {
-  font-family: '3270 Nerd Font Mono';
-  src: url('data/font/3270NerdFontMono-Condensed.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}

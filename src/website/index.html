@@ -6,6 +6,8 @@
 <meta name="description" content="Vedran's minimalist personal homepage. Learn more about my journey in programming, Linux, cycling, and more.">
 <title>Vedran's Homepage</title>
 <link rel="stylesheet" href="templates/styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.003/web/hack.css">
+
 <body>
   <nav>
     <h3 class="homepage-h3">Vedran's Homepage</h3>
@@ -30,7 +32,17 @@
     <h3 class="contact-h3">Contact Information</h3>
     <p>Feel free to reach out and ask me about anything!</p>
     <ul>
-      <li>Email: vchichovv@gmail.com</li>
+      <li><p>Email: <span id="email"><a href="#" onclick="revealEmail()"><b>[reveal]</b></a></span></p>
+
+    <script>
+    function revealEmail() {
+      const emailSpan = document.getElementById("email");
+      const user = "vchichovv";
+      const domain = "gmail.com";
+      const email = user + "@" + domain;
+      emailSpan.innerHTML = `<a href="mailto:${email}">${email}</a>`;
+    }
+  </script></li>
       <li>Github: <b><a href="https://github.com/vedranchi">@vedranchi</a></b></li>
     </ul>
   </section>  
@@ -45,7 +57,6 @@
         document.getElementById("modified").innerHTML=text;
       </script>
       <b><a href="https://github.com/vedranchi/personal_web/commits/main/src/website/index.html">History</a></b>
-      
     </section>
       <p style="color: white;">© 2025 Vedran Chichov</p>
   </footer>
