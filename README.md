@@ -4,7 +4,7 @@
 
 ## About me
 - I'm Vedran, 18-year-old student from Macedonia with quite an interest for tech.
-- Not the biggesst fan of web design, so that's why I tried to keep the website as simple as possible.
-
+- This is my "try to keep it as simple as possible" website :D
+  
 ## The Website
 - The site is live at https://vedranchi.github.io/vedran.github.io/
