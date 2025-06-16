@@ -1,9 +1,12 @@
 body {
-  background-color: black;
+  background-color: #000;
   max-width: 750px;
   margin: 0 auto;
-  padding: 12px 8px;
-    
+  padding: 12px 16px;
+  font-family: '3270 Nerd Font Mono', monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  color: white;
 }
 
 nav {
@@ -12,22 +15,64 @@ nav {
   align-items: center;
 }
 
-p {
-  display: block;
-  margin: 12px 0;
-  font-size: 1rem;
-  color: white;
+nav h3 {
+  margin: 0;
 }
 
-h3 {
-  color: white
-  ;
+.main-text {
+  display: block;
+  margin: 12px 0;
 }
-div {
-  color: white;
+
+hr {
+  border: none;
+  border-top: 1px solid #444;
+  margin: 16px 0;
 }
 
 a {
-  color: lightcoral;
+  color: lightgreen;
 }
 
+.modified {
+  display: flexbox;
+}
+
+footer {
+  font-size: 12px;
+  margin-top: 24px;
+  color: #aaa;
+}
+
+.contact-h3::before {
+  content: "$_ ";
+  color: lightgreen;
+}
+
+.homepage-h3::before {
+  content: "$_ ";
+  color: lightgreen;
+  animation: blinker 1s infinite;
+}
+
+
+@keyframes blinker {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/* font rule */
+@font-face {
+  font-family: '3270 Nerd Font Mono';
+  src: url('data/font/3270NerdFontMono-Condensed.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
