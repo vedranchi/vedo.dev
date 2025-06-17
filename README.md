@@ -1,6 +1,6 @@
-## Welcome To My Minimalist Homapage
+## Welcome To My Minimalist Homepage
 
-- This is a simple site built with html/css with a terminal-inspired style.
+- This is a simple site built with HTML/CSS and a terminal-inspired style.
 
 ## About me
 - I'm Vedran, 18-year-old student from Macedonia with quite an interest for tech.
@@ -8,3 +8,6 @@
   
 ## The Website
 - The site is live at https://vedranchi.github.io/vedran.github.io/
+
+## GIF Source
+- https://cyber.dabamos.de/88x31/
