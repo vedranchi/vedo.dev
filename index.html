@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Vedran's minimalist personal homepage. Learn more about my journey in programming, Linux, cycling, and more.">
-<title>Vedran's Homepage</title>
-<link rel="stylesheet" href="/src/website/templates/styles.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.003/web/hack.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Vedran's minimalist personal homepage. Learn more about my journey in programming, Linux, cycling, and more.">
+  <title>Vedran's Homepage</title>
+  <link rel="stylesheet" href="/src/website/templates/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.003/web/hack.css">
 
 <body>
   <nav>
@@ -16,50 +18,86 @@
   <hr>
   <section class="main-text">
     <p>Welcome! I'm Vedran, an 18-year-old high school student from Macedonia, and this is my personal homepage.
-    Programming became my interest afer finishing primary school when I discovered the "Python Crash Course" by Eric Matthes and I've been doing it ever since. I've had my 
-    fair share of hiccups along my journey but I finally feel like I am starting to get the point. Being young still, I want to explore
-    all areas of programming. I've dedicated most of my time to back-end development mainly working with Python (Flask/FastAPI).  <br>
-    
-    <br>In addition to programming, I'm interested in Linux too. First I started with ubuntu and after messing with some other distributions as well
-    I have decided to stick with arch, btw ;). My current setup consists of <b><a href="https://archlinux.org/">Arch</a></b> and <b><a href="https://i3wm.org/">i3</a></b>. I find the workflow much better compared to Windows since you're in control of your environment. All of my dotfiles are hosted at my <b><a href="https://github.com/vedranchi">Github</a></b>.
-    <br>
+      Programming became my interest afer finishing primary school when I discovered the "Python Crash Course" by Eric
+      Matthes and I've been doing it ever since. I've had my
+      fair share of hiccups along my journey but I finally feel like I am starting to get the point. Being young still,
+      I want to explore
+      all areas of programming. I've dedicated most of my time to back-end development mainly working with Python
+      (Flask/FastAPI). <br>
 
-    <br>Outside of the tech world I enjoy racing my bicycle, currently riding for my local club <b><a href="https://www.cyclingvelom.com/">Velo-M</a></b>,
-    and also enjoy reading and playing piano.
-  </p>
-</section>
+      <br>In addition to programming, I'm interested in Linux too. First I started with ubuntu and after messing with
+      some other distributions as well
+      I have decided to stick with arch, btw ;). My current setup consists of <b><a
+          href="https://archlinux.org/">Arch</a></b> and <b><a href="https://i3wm.org/">i3</a></b>. I find the workflow
+      much better compared to Windows since you're in control of your environment. All of my dotfiles are hosted at my
+      <b><a href="https://github.com/vedranchi/dotfiles">Github</a></b>.
+      <br>
+
+      <br>Outside of the tech world I enjoy racing my bicycle, currently riding for my local club <b><a
+          href="https://www.cyclingvelom.com/">Velo-M</a></b>,
+      and also enjoy reading and playing piano.
+    </p>
+  </section>
   <section class="contact-text">
     <h3 class="contact-h3">Contact Information</h3>
     <p>Feel free to reach out and ask me about anything!</p>
     <ul>
-      <li><p>Email: <span id="email"><a href="#" onclick="revealEmail()"><b>[reveal]</b></a></span></p>
-
-    <script>
-    function revealEmail() {
-      const emailSpan = document.getElementById("email");
-      const user = "vchichovv";
-      const domain = "gmail.com";
-      const email = user + "@" + domain;
-      emailSpan.innerHTML = `<a href="mailto:${email}">${email}</a>`;
-    }
-  </script></li>
+      <li>
+        <p>Email: <span id="email"><a href="#" onclick="revealEmail()"><b>[reveal]</b></a></span></p>
+        <script>
+          function revealEmail() {
+            const emailSpan = document.getElementById("email");
+            const user = "vchichovv";
+            const domain = "gmail.com";
+            const email = user + "@" + domain;
+            emailSpan.innerHTML = `<a href="mailto:${email}">${email}</a>`;
+          }
+        </script>
+      </li>
       <li>Github: <b><a href="https://github.com/vedranchi">@vedranchi</a></b></li>
     </ul>
-  </section>  
+  </section>
   <hr>
   <footer>
+    <section class="gif-container">
+        <div class="gif-line">
+          <img src="/src/data/gifs/ltt.gif" title="Free Tech Tips Here">
+          <img src="/src/data/gifs/hair.gif" title="No Bad Hair Days On The Internet">
+          <img src="/src/data/gifs/lan.gif" title="Screw Y'all I'm Going Back To My Local Network ">
+          <img src="/src/data/gifs/nclinux.gif" title="Linux Today">
+          <img src="/src/data/gifs/www-button-button.gif" title="World Wide Web">
+          <img src="/src/data/gifs/anythingbut.gif" title="Anything But Chrome">
+          <img src="src/data/gifs/penguins.gif" title="Powered By Penguins">
+          <img src="src/data/gifs/nokia64.gif" title="Nokia">
+          <img src="src/data/gifs/cssdif.gif" title="CSS Is Difficult">
+          <!-- duplicate for infinite loop -->
+          <img src="/src/data/gifs/ltt.gif" title="Free Tech Tips Here">
+          <img src="/src/data/gifs/hair.gif" title="No Bad Hair Days On The Internet">
+          <img src="/src/data/gifs/lan.gif" title="Screw Y'all I'm Going Back To My Local Network ">
+          <img src="/src/data/gifs/nclinux.gif" title="Linux Today">
+          <img src="/src/data/gifs/www-button-button.gif" title="World Wide Web">
+          <img src="/src/data/gifs/anythingbut.gif" title="Anything But Chrome">
+          <img src="src/data/gifs/penguins.gif" title="Powered By Penguins">
+          <img src="src/data/gifs/nokia64.gif" title="Nokia">
+          <img src="src/data/gifs/cssdif.gif" title="CSS Is Difficult">
+        </div>
+    </section>
+
     <section class="modified">
-      <p>Page last modified on: </p> 
+      <p>Page last modified on: </p>
       <p id="modified"></p>
 
       <script>
         let text = document.lastModified;
-        document.getElementById("modified").innerHTML=text;
+        document.getElementById("modified").innerHTML = text;
       </script>
       <b><a href="https://github.com/vedranchi/personal_web/commits/main/src/website/index.html">History</a></b>
     </section>
-      <p style="color: white;">© 2025 Vedran Chichov</p>
+    <p style="color: white;">© 2025 Vedran Chichov</p>
+
+
   </footer>
-</head>
+  </head>
 </body>
+
 </html>
