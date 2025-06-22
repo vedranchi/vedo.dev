@@ -7,7 +7,7 @@
 - This is my "try to keep it as simple as possible" website :D
   
 ## The Website
-- The site is live at https://vedranchi.github.io/vedran.github.io/
+- The site is live at vedranchi.dev
 
 ## GIF Source
 - https://cyber.dabamos.de/88x31/
